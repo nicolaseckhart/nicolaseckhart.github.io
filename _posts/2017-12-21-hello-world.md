@@ -3,7 +3,7 @@ layout: post
 title: "Hello World"
 date: 2017-12-21 20:00:00 +0100
 tags: foo bar baz
-
+author: nicolaseckhart
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -15,5 +15,3 @@ puts 'Hello World'
 ```
 
 ... you get the jist
-
-FOO
