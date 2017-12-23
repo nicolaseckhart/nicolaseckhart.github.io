@@ -20,7 +20,6 @@ github_username: nicolaseckhart
 
 # Build settings
 markdown: kramdown
-theme: minima
 plugins:
   - jekyll-feed
 
