@@ -2,19 +2,18 @@
 layout: default
 ---
 
-<div>
+<main>
   {{ content }}
-  <h1>Posts</h1>
   <ul>
     {% for post in site.posts %}
       <li>
         <span>{{ post.date | date_to_long_string }}</span>
-        <h2>
+        <h3>
           <a href="{{ post.url | relative_url }}">
             {{ post.title | escape }}
           </a>
-        </h2>
+        </h3>
       </li>
     {% endfor %}
   </ul>
-</div>
+</main>
