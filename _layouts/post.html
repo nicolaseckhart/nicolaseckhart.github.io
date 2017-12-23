@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<article>
+  <header>
+    <h1>{{ page.title | escape }}</h1>
+    <p>
+      <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_long_string }}</time>
+      {% if page.author %}
+        • <span>{{ page.author }}</span>
+      {% endif %}
+    </p>
+  </header>
+  {{ content }}
+</article>
