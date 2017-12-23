@@ -2,18 +2,18 @@
   margin: 15px;
   overflow: auto;
   font-weight: 400;
-  background-color: darken($gray-darkest, 5);
+  background-color: darken($gray-darker, 5);
 
   pre {
     margin: 0;
   }
 
   .re {
-    background-color: darken($gray-darkest, 5);
+    background-color: darken($gray-darker, 5);
   }
 
   .hll {
-    background-color: darken($gray-darkest, 5);
+    background-color: darken($gray-darker, 5);
   }
 
   .c {
@@ -266,7 +266,7 @@
   padding: 2px 4px;
   font-size: 14px;
   color: #f92672;
-  background: darken($gray-darkest, 5);
-  border: 1px solid $base-border-color;
+  background: darken($gray-darker, 5);
   border-radius: 1px;
+  margin-bottom: 15px;
 }

@@ -20,6 +20,8 @@
 }
 
 // Variables
+$white: #fff;
+$whitesmoke: #f5f5f5;
 $black: #000;
 $gray-darkest: #121111;
 $gray-darker: lighten($gray-darkest, 15);
@@ -28,14 +30,13 @@ $gray: lighten($gray-darkest, 45);
 $gray-light: lighten($gray-darkest, 60);
 $gray-lighter: lighten($gray-darkest, 75);
 $gray-lightest: lighten($gray-darkest, 85);
-$white: #fff;
-$base-border-color: $gray-darker;
 
 // Import partials.
 @import
   "styling/base",
+  "styling/typography",
+  "styling/syntax-highlighting",
   "styling/footer",
   "styling/header",
-  "styling/post",
-  "styling/syntax-highlighting"
+  "styling/post"
 ;
