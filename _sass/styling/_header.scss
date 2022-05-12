@@ -18,7 +18,7 @@ header {
     animation: 1.5s blink step-end infinite;
   }
 
-  @keyframes "blink" {
+  @keyframes 'blink' {
     from, to {
       color: transparent;
     }
@@ -36,7 +36,7 @@ header {
     }
   }
 
-  @-webkit-keyframes "blink" {
+  @-webkit-keyframes 'blink' {
     from, to {
       color: transparent;
     }
@@ -45,7 +45,7 @@ header {
     }
   }
 
-  @-ms-keyframes "blink" {
+  @-ms-keyframes 'blink' {
     from, to {
       color: transparent;
     }
@@ -54,7 +54,7 @@ header {
     }
   }
 
-  @-o-keyframes "blink" {
+  @-o-keyframes 'blink' {
     from, to {
       color: transparent;
     }

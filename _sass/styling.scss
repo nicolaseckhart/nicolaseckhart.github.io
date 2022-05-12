@@ -33,10 +33,10 @@ $gray-lightest: lighten($gray-darkest, 85);
 
 // Import partials.
 @import
-  "styling/base",
-  "styling/typography",
-  "styling/syntax-highlighting",
-  "styling/footer",
-  "styling/header",
-  "styling/post"
+  'styling/base',
+  'styling/typography',
+  'styling/syntax-highlighting',
+  'styling/footer',
+  'styling/header',
+  'styling/post'
 ;
