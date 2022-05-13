@@ -1,0 +1,22 @@
+
+@mixin delayed-arrive-top($delayTime) {
+  animation: 
+      hide #{$delayTime},
+      arrive-top 1s #{$delayTime};
+}
+
+@keyframes hide {
+  0% { opacity: 0; }
+  100% { opacity: 0; }
+}
+
+@keyframes arrive-top {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
